@@ -1,0 +1,105 @@
+body{
+	background-color:f6e6d1;
+	color:f6e6d1;
+	height:300px;
+	
+}
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+
+div#general{
+	background-color:red;
+	width:1005px;
+	height:75px;
+	margin-top:0px
+		
+}
+
+.titulo{
+	font-family:26px;
+	text-align:left;
+	color:red;
+	padding-top:10px;
+	padding-left:250px;
+	padding-right:100px;
+}
+
+
+.texto{
+	font-family:Aldhabi;
+	font-size:18px;
+	text-align:left;
+	color:black;
+	padding-top:20px;
+	padding-left:220px;
+	padding-right:50px;
+}
+	
+		 
+.html{
+     font-family:Lobster, cursive;
+	 font-size:12px;
+}
+
+.menu{
+	 width:200px;
+	 height:500px;
+	 background:red;
+	 border-radius:0.0rem;
+	 position:absolute;
+	 top:200px;
+	 left:0px;
+	 font-family:san-sarif;
+	 font-size:20px;
+	 color:black;
+	 padding-top:50px;
+	 text-align:center;
+}
+
+.container{
+	 width:100%;
+	 max-width:700px;
+	 margin:auto;
+	 margin-top:100px;
+	
+}
+
+.left-panel{
+	background:red;
+	cursor:pointer;
+	transition:all 400ms ease;
+}
+
+.content{
+	position:relative;
+}
+
+.content div{
+	position:absolute;
+	line-height:1s;
+	transition:all 600ms ease;
+	opacity:0;
+	visibility:hidden;
+	transform:scale(0.90);
+	padding:30px;
+	background:f6e6d1;
+	padding-bottom:40px;
+}
+
+#home.html,#geografia.html,#cultura.html,#contactanos.html{
+	display:none;
+}
+#home.html:checked~ .tab1,
+#geografia.html:checked~ .tab2,
+#cultura.html:checked~ .tab3,
+#contactanos.html:checked~ .tab4
+
+	{
+	opacity:1;
+	visibility:visible;
+	transform:scale(1);
+}
